@@ -1,0 +1,7 @@
+p {
+    color: firebrick;
+}
+
+p#Food {
+    font-size: larger;
+}
