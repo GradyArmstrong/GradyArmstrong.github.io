@@ -4,4 +4,12 @@ p {
 
 p#Food {
     font-size: larger;
+    text-decoration: underline;
+}
+
+h2 {
+    color: goldenrod;
+    border: 5px outset darkred;
+    width:fit-content;
+    padding: 2px;
 }
