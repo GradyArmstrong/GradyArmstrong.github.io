@@ -4,6 +4,7 @@
 }
 
 .hover-highlight-card:hover {
+    transition: 2s;
     background-color: red;
     box-shadow: 10px 10px 10px;
 }
@@ -71,7 +72,11 @@
     flex-wrap: wrap;
 }
 .fading-gallery img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
+}
+.fading-gallery img:hover {
+    transform: translate(5px, -10px) scale(2);
+    transition: ease-out 2s;
 }
