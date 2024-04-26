@@ -26,7 +26,15 @@ let arr = [3, 1, 4, 1, 5];
 for (let i = 0; i < arr.length; i++){
 console.log(arr[i]);
 }
-console.log("Task 7")
-console.log("Task 8")
+console.log("Task 7");
+for(let i = 0; i <arr.length; i++) {
+    console.log(arr.at(-i-1));
+}
+console.log("Task 8");
+let cubes = [];
+for(let i = 1; i < 11; i++ ) {
+    cubes.push (i**3)
+    }
+    console.log(cubes)
 console.log("Task 9")
 console.log("Task 10")
