@@ -51,3 +51,10 @@ first = temp
 console.log(fibo);
 
 console.log("Task 10")
+
+let newarray = [];
+
+for(let i = 0; i < arr.length; i++) {
+    newarray.push(arr.at(-i-1))
+}
+console.log(newarray);
