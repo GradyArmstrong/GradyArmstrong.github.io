@@ -37,4 +37,17 @@ for(let i = 1; i < 11; i++ ) {
     }
     console.log(cubes)
 console.log("Task 9")
+let fibo = [];
+let first = 0;
+let second = 1;
+for(let i = 1; i < 11; i++) {
+
+fibo.push (first)
+let temp = second
+second = second + first;
+first = temp
+}
+
+console.log(fibo);
+
 console.log("Task 10")
