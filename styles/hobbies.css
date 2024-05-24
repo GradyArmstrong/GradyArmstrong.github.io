@@ -12,11 +12,11 @@ h1 {
 
 .gallery {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .gallery img {
-    object-fit: fill;
+    object-fit: contain;
 }
 .img1 img {
     width: 200px;
@@ -26,22 +26,37 @@ h1 {
     transition: ease-out 2s;
     filter: drop-shadow(10px 10px 10px);
 }
-
-.img2 img {
-    width: 400px;
-    height: auto;
-}
-.img2 img:hover {
-    transform: translate(5px, -10px) scale(2);
-    transition: ease-out 2s;
-    filter: drop-shadow(10px 10px 10px);
-}
-.img3 img {
-    width: 300px;
-    height: auto;
-}
-.img3 img:hover {
-    transform: translate(5px, -10px) scale(2);
-    transition: ease-out 2s;
-    filter: drop-shadow(10px 10px 10px);
-}
+.squareToCircle {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    animation: squareToCircle 2s 1s infinite alternate;
+  }
+  
+  @keyframes squareToCircle {
+      0% {
+        border-radius: 0 0 0 0;
+        background: coral;
+        transform: translateX(500px) rotate(0deg);
+      }
+      25% {
+        border-radius: 50% 0 0 0;
+        background: darksalmon;
+        transform: translateX(500px) rotate(45deg);
+      }
+      50% {
+        border-radius: 50% 50% 0 0;
+        background: indianred;
+        transform: translateX(500px) rotate(90deg);
+      }
+      75% {
+        border-radius: 50% 50% 50% 0;
+        background: lightcoral;
+        transform: translateX(500px) rotate(135deg);
+      }
+      100% {
+        border-radius: 50% 50% 50% 50%;
+        background: darksalmon;
+        transform: translateX(500px) rotate(180deg);
+      }
+  }
