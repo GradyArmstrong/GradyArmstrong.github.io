@@ -10,45 +10,35 @@ h1 {
     padding: 2px;
 }
 
-.img1 {
+.gallery {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.gallery img {
+    object-fit: fill;
+}
 .img1 img {
-    width: px;
-    height: 220px;
-    object-fit: cover;
+    width: 200px;
 }
 .img1 img:hover {
     transform: translate(5px, -10px) scale(2);
     transition: ease-out 2s;
     filter: drop-shadow(10px 10px 10px);
 }
-.img2 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
 .img2 img {
-    width: 1000px;
-    height: 150px;
-    object-fit: cover;
+    width: 400px;
+    height: auto;
 }
 .img2 img:hover {
     transform: translate(5px, -10px) scale(2);
     transition: ease-out 2s;
     filter: drop-shadow(10px 10px 10px);
 }
-.img3 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 .img3 img {
     width: 300px;
-    height: 200px;
-    object-fit: cover;
+    height: auto;
 }
 .img3 img:hover {
     transform: translate(5px, -10px) scale(2);
