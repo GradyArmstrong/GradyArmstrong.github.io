@@ -1,5 +1,10 @@
+body {
+    background-color:lightskyblue;
+    width:fit-content;
+    padding: 2px;
+}
 p {
-    color: firebrick;
+    color: rgb(12, 75, 148);
 }
 
 p#Food {
@@ -8,8 +13,8 @@ p#Food {
 }
 
 h2 {
-    color: goldenrod;
-    border: 5px outset darkred;
+    color: rgb(32, 66, 218);
+    border: 5px outset rgb(86, 179, 255);
     width:fit-content;
     padding: 2px;
 }
