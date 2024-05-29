@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img2 img {
+    width: 200px;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+}
+.card img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+  
+.card .image-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: opacity 0.5s ease;
+    z-index: -1;
+}
+  
+.card img:hover {
+    opacity: 1;
+}
+  
