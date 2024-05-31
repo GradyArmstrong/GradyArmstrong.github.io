@@ -16,14 +16,15 @@
 }
   
 .card .image-cover {
-    position: absolute;
-    top: 0;
-    left: 0;
     background-color: black;
     transition: opacity 0.5s ease;
+    width: fit-content;
+    height: fit-content;
 }
   
 .card img:hover {
     opacity: 1;
 }
-  
+body {
+    background: lightskyblue;
+}
