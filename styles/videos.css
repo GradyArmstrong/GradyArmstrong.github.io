@@ -45,7 +45,7 @@ body {
     transform: rotateY(180deg);
 }
 .front {
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
 }
 label {
     font-family: Georgia, 'Times New Roman', Times, serif;
