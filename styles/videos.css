@@ -22,7 +22,6 @@ body {
     margin: 5px;
     position: relative;
     transform-style: preserve-3d;
-    box-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
